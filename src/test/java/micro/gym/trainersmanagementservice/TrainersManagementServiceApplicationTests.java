@@ -2,8 +2,9 @@ package micro.gym.trainersmanagementservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import TrainerService.TrainerApplication;
 
-@SpringBootTest
+@SpringBootTest(classes = TrainerApplication.class)
 class TrainersManagementServiceApplicationTests {
 
     @Test
