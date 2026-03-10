@@ -1,4 +1,4 @@
-package TrainerService.model;
+package trainersmanagementservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

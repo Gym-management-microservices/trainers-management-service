@@ -1,10 +1,11 @@
-package TrainerService.controller;
+package trainersmanagementservice.controller;
 
-import TrainerService.model.Trainer;
-import TrainerService.model.TrainerId;
-import TrainerService.service.TrainerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import trainersmanagementservice.model.Trainer;
+import trainersmanagementservice.model.TrainerId;
+import trainersmanagementservice.service.TrainerService;
 
 import java.util.List;
 

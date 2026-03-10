@@ -1,4 +1,4 @@
-package TrainerService.model;
+package trainersmanagementservice.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;

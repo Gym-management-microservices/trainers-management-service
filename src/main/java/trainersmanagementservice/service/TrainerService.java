@@ -1,10 +1,11 @@
-package TrainerService.service;
+package trainersmanagementservice.service;
 
-import TrainerService.model.Trainer;
-import TrainerService.model.TrainerId;
-import TrainerService.repository.TrainerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import trainersmanagementservice.model.Trainer;
+import trainersmanagementservice.model.TrainerId;
+import trainersmanagementservice.repository.TrainerRepository;
 
 import java.util.List;
 
