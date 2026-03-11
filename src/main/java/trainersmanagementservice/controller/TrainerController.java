@@ -11,24 +11,24 @@ import trainersmanagementservice.service.TrainerService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/trainer")
+@RequestMapping("/trainers")
 public class TrainerController {
     @Autowired
     private TrainerService trainerService;
 
-    @PostMapping("/register")
+    @PostMapping
     @PreAuthorize("hasRole('ADMIN')")
-    public void registerMember(@RequestBody Trainer trainer) {
+    public void createTrainer(@RequestBody Trainer trainer) {
         trainerService.registerTrainer(trainer);
     }
     
-    @GetMapping("/trainers")
+    @GetMapping
     @PreAuthorize("hasAnyRole('ADMIN', 'MEMBER')")
     public List<Trainer> getTrainers() {
         return trainerService.getTrainers();
     }
     
-    @GetMapping("/search/{id}")
+    @GetMapping("/{id}")
     @PreAuthorize("hasAnyRole('ADMIN', 'TRAINER', 'MEMBER')")
     public Boolean searchTrainer(@PathVariable("id") TrainerId trainerId) {
         return trainerService.searchTrainer(trainerId);
