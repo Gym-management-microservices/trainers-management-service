@@ -1,8 +1,9 @@
-package TrainerService.repository;
+package trainersmanagementservice.repository;
 
-import TrainerService.model.Trainer;
-import TrainerService.model.TrainerId;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import trainersmanagementservice.model.Trainer;
+import trainersmanagementservice.model.TrainerId;
 
 public interface TrainerRepository extends JpaRepository<Trainer, TrainerId> {
 }

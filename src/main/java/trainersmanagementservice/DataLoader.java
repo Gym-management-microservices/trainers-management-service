@@ -1,10 +1,11 @@
-package TrainerService;
+package trainersmanagementservice;
 
-import TrainerService.model.*;
-import TrainerService.repository.TrainerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import trainersmanagementservice.model.*;
+import trainersmanagementservice.repository.TrainerRepository;
 
 
 @Component
