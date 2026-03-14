@@ -15,7 +15,7 @@ public class TrainerController {
     private TrainerService trainerService;
 
     @PostMapping("/register")
-    public void registerMember(@RequestBody Trainer trainer) {
+    public void registerTrainer(@RequestBody Trainer trainer) {
         trainerService.registerTrainer(trainer);
     }
     @GetMapping("/trainers")
