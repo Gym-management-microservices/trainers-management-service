@@ -1,4 +1,4 @@
-package trainersmanagementservice.model;
+package micro.gym.trainersmanagementservice.model;
 
 
 import lombok.AllArgsConstructor;
