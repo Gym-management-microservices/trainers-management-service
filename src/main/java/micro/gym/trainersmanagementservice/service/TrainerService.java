@@ -1,11 +1,11 @@
-package trainersmanagementservice.service;
+package micro.gym.trainersmanagementservice.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import trainersmanagementservice.model.Trainer;
-import trainersmanagementservice.model.TrainerId;
-import trainersmanagementservice.repository.TrainerRepository;
+import micro.gym.trainersmanagementservice.model.Trainer;
+import micro.gym.trainersmanagementservice.model.TrainerId;
+import micro.gym.trainersmanagementservice.repository.TrainerRepository;
 
 import java.util.List;
 

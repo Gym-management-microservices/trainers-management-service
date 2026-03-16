@@ -1,4 +1,4 @@
-package trainersmanagementservice.controller;
+package micro.gym.trainersmanagementservice.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -12,9 +12,9 @@ import io.swagger.v3.oas.annotations.media.ExampleObject;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
-import trainersmanagementservice.model.Trainer;
-import trainersmanagementservice.model.TrainerId;
-import trainersmanagementservice.service.TrainerService;
+import micro.gym.trainersmanagementservice.model.Trainer;
+import micro.gym.trainersmanagementservice.model.TrainerId;
+import micro.gym.trainersmanagementservice.service.TrainerService;
 
 import java.util.List;
 

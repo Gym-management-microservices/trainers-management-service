@@ -1,4 +1,4 @@
-package trainersmanagementservice.model;
+package micro.gym.trainersmanagementservice.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;
