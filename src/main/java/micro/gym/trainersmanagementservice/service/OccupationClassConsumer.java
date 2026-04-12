@@ -20,7 +20,7 @@ public class OccupationClassConsumer {
 
     @KafkaListener(topics = "ocupacion-clases", groupId = "trainers-grupo")
     @Transactional
-    public void actualiztionOcupacion(
+    public void actualizationOcupacion(
             ConsumerRecord<String, CurrentOcuppationDTO> record,
             Acknowledgment acknowledgment) {
         try {
